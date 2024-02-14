@@ -1,0 +1,27 @@
+/*element selector
+*/
+p
+{
+    background-color: rgb(0,100,125);
+}
+h1
+{
+    text-align: center;
+}
+/* class selector*/
+.test
+{
+    background-color: #800080;
+}
+/* id selector*/
+#demo
+{
+    background-color:brown;
+}
+/*  universal selector*/
+
+*
+{
+  color:rgb(0, 125, 56) ;
+ border:2px solid black;
+}
