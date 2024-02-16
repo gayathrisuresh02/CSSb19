@@ -17,20 +17,52 @@
     margin: 5px;
     padding:20px;
     }
+    .a
+    {
+ display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+    }
+    .b
+    {
+ display: inline-block; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+    }
+    .c
+    {
+ display: block; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+    }
 </style>
 </head>
 
 <body>
 
     <script src=""></script>
-    <div>
+    
 <h1>List</h1>
 <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>Javascript</li>
 </ul>
-</div>
+
+<h2>This is data<span class="a">hello</span></h2>
+<h2>This is data<span class="b">hello</span></h2>
+
+<h2>This is data<span class="c">hello</span></h2>
+
 </body>
 
 </html>
