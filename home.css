@@ -1,0 +1,90 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+.header
+{
+    position: relative;
+    top:0;
+    left:0;
+    background-color:salmon;
+    height:50px;
+    width:100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+.port
+{
+   
+    font-size: 25px;
+    color:#800080;
+    text-decoration: none;
+}
+.fo
+{
+    color:chartreuse;
+   
+}
+nav a{
+    margin-left: 35px;
+    font-weight: 700;
+}
+.home
+{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100vh;
+    padding:70px 10%;
+    background-image: url('xxn.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Home-content h3
+{
+font-size: 40px;
+font-weight: 500;
+margin:3px 5%;
+}
+.Home-content p
+{
+font-size: 20px;
+margin:3px 5%;
+}
+.Home-content h1
+{
+font-size: 40px;
+font-weight: 500;
+margin:3px 5%;
+}
+.icon a
+{
+    display: inline-flex;
+    text-decoration: none;
+    width:40px;
+    height:40px;
+    background: transparent;
+    border:5px solid cyan;
+    margin:30px 15px 30px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    color:aqua;
+    padding: 5px;
+  
+}
+.btn
+{
+    background-color:lightpink;
+    text-decoration: none;
+    font-size:16px;
+    padding: 12px 28px;
+    display: inline-block;
+}

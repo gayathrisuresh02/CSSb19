@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:black;
+            height:100vh;
+            display: flex;
+            overflow: hidden;
+        }
+        .spinner
+        {
+           width:10em;
+           height:10em;
+           background-color: transparent;
+           margin:auto;
+           border-top:1em solid blue;
+           border-radius: 50%;
+           border-right:1em solid transparent;
+           animation: spinner 2s infinite;
+
+        }
+        @keyframes spinner {
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="spinner">
+        <div class="circle">
+
+        </div>
+    </div>
+</body>
+</html>
